@@ -1,12 +1,13 @@
 import React from 'react';
-//import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Login from './components/loginpage';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Base Project 
+        <Login/>
       </header>
     </div>
   );
