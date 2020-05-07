@@ -39,7 +39,7 @@ export default class Login extends React.Component {
 
           <Form.Text className="text-muted">{error}</Form.Text>
 
-          <Button className="page-button" variant="outline-primary" type="button"
+          <Button className="page-button" variant="outline-primary" type="submit"
             onClick={() => this.props.onClick(this.state.email, this.state.password)}>Login</Button>
 
         </Form>

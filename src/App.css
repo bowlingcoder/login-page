@@ -33,11 +33,13 @@
 }
 
 .page{
-  height: 70vh;
+  position: relative;
+  height: auto;
   clear: none;
   margin: 2.5vh 0%;
+  overflow: hidden;
   width: auto;
-  overflow-y: auto;
+  
 }
 
 .page::-webkit-scrollbar-track {
@@ -50,7 +52,8 @@ h1{
 }
 
 .login-header{
-  height: 15vh;
+  position: relative;
+  height: auto;
   align-content: center;
   font-size: 24px;
   padding: 1% 0%;
@@ -68,8 +71,9 @@ h1{
 }
 
 .login-footer{
+  position: relative;
   font-size: 3vh;
-  height: 5vh;
+  height: auto;
   margin-top: 0%;
 }
 
